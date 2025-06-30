@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "build": "npm install",
+    "build": "npm install && npm run seed",
     "start-dev": "NODE_ENV=development nodemon app.js",
     "seed": "node database/seed.js"
   },
